@@ -10,6 +10,7 @@ function setup() {
 function draw() {
 	w.step();
 	w.display();
+	//console.log(w);
 
 }
 
@@ -26,6 +27,7 @@ class Walker {
 
 	step() {
 		var choice = int(random(4)); // 0, 1, 2 or 3
+		//console.log(choice);
 		if (choice == 0) {
 			this.x++;
 		} else if (choice == 1) {
