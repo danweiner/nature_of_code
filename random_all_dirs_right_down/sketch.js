@@ -26,10 +26,10 @@ class Walker {
 	}
 
 	step() {
-		var stepx = random(-.97, 1);
-		var stepy = random(-.97, 1);
-		console.log(stepx);
-		console.log(stepy);
+		var stepx = random(-0.97, 1);
+		var stepy = random(-0.97, 1);
+		// console.log(stepx);
+		// console.log(stepy);
 
 		this.x += stepx;
 		this.y += stepy;
